@@ -72,24 +72,20 @@ p {
 }
 
 /* Start here */
-.box:hover {
+
+.boxes.box{
+    transition-duration: 3s;
     filter:hue-rotate(360deg);
-    transition-duration: 10s;
 }
-.box:hover {
-    filter:drop-shadow(8px 8px 10px gray) hue-rotate(360deg);
+.box:hover{
+    filter:hue-rotate(360deg);
     transition-duration: 3s;
 }
-
 a:hover {
     filter:drop-shadow(8px 8px 10px gray);
 }
 button:hover {
     filter:drop-shadow(8px 8px 10px gray);
-}
-img:hover {
-    transition-duration: 3s;
-    filter:saturate(200%);
 }
 
 header{
