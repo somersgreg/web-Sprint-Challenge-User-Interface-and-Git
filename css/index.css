@@ -72,6 +72,25 @@ p {
 }
 
 /* Start here */
+.box:hover {
+    filter:hue-rotate(360deg);
+    transition-duration: 10s;
+}
+.box:hover {
+    filter:drop-shadow(8px 8px 10px gray) hue-rotate(360deg);
+    transition-duration: 3s;
+}
+
+a:hover {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+button:hover {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+img:hover {
+    transition-duration: 3s;
+    filter:saturate(200%);
+}
 
 header{
     width: 100%;
@@ -194,6 +213,27 @@ nav a {
     padding: 20px;
     border-bottom: dotted gray;
         /* border: 2px solid red; */
+}
+
+.about-parts{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+        /* border: 2px solid red; */
+}
+
+.about-parts div {
+
+    width: 48%;
+    border-bottom: dotted grey;
+    margin-top: 20px;
+        /* border: 2px solid red; */
+}
+
+.about-parts div img {
+    width: 100%;
 }
 
 button {
