@@ -1,5 +1,7 @@
 /* Start here */
-
+header nav a:nth-child(2){
+    text-decoration: underline;
+}
 .boxes.box{
     transition-duration: 3s;
     filter:hue-rotate(360deg);
@@ -17,7 +19,6 @@ button:hover {
 
 header{
     width: 100%;
-    /* border: 2px solid red; */
 }
 nav {
     display: flex;
@@ -25,16 +26,12 @@ nav {
     margin-bottom: 20px;
     padding-right: 7%;
     width: 100%;
-    /* border: 2px solid red; */
 }
-nav img {
-    /* border: 2px solid red; */
-}
+
 nav a {
     align-items: flex-end;
     color: black;
     display: flex;
-    /* border: 2px solid red; */
     text-decoration: none;
 }
 .decoration {
@@ -130,49 +127,6 @@ nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-/* About Page */
-#about {
-    padding: 20px;
-    border-bottom: dotted gray;
-        /* border: 2px solid red; */
-}
-
-.about-parts{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 10px;
-        /* border: 2px solid red; */
-}
-
-.about-parts div {
-
-    width: 48%;
-    border-bottom: dotted grey;
-    margin-top: 20px;
-        /* border: 2px solid red; */
-}
-
-.about-parts div img {
-    width: 100%;
-}
-
-button {
-    padding: 10px;
-    width:30%;
-    margin: 20px auto;
-    border: 2px solid black;
-    background-color: white;
-    border-radius: 10px;
-}
-
-#bcomment{
-    margin-top: 40px;
-}
-
-
 footer {
     width: 100%;
     background: black;

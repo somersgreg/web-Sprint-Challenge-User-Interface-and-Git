@@ -1,0 +1,50 @@
+##Be sure to always put the reset link before the css link
+
+##The extra box i think is redundant but i dont have time to consider
+Its used to apply these rules.
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+##These are the hover animations.
+
+.boxes.box{
+    transition-duration: 3s;
+    filter:hue-rotate(360deg);
+}
+.box:hover{
+    filter:hue-rotate(360deg);
+    transition-duration: 3s;
+}
+a:hover {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+button:hover {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+
+##Nth child is so easy!!
+
+## Interestingly the second format links to the top and the first will go to a link if it exists but #product doesnt go to the top.
+        <footer>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#product">Products</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </footer>
