@@ -32,15 +32,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+If you were to describe semantic HTML to the next cohort of students, what would you say? 
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+	> Semantic HTML means you code meaningfully. You choose precise names like 'nav' over 'div' although either would functionally suffice. Your code should convey meaning about itself, not just define the end result.  
 
-3. What are the 4 areas of the box model?
+Name two big differences between display: block; and display: inline;. 
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+	> Block: Can adjust height and width. Extends full width of viewport. Always starts new line.  Examples: div, p, ul/ol
+	> Inline: Cannot adjust height and width. Doesnt start a new line or on a new line. Takes up min space.  Examples: span, a, input, button
 
-5. Explain why git is valuable to a team of developers.
+What are the 4 areas of the box model? 
+
+	> In inward order: Margin, Border, Padding, Content
+
+While using flexbox, what axis does the following property work on: align-items: center? 
+
+	> Align items apply to the cross-axis perpendicular to the main (justify) axis.
+	< My understanding is the poles can be rotated but cant remember.  If not the axis is N-S.
+
+Explain why git is valuable to a team of developers?
+
+	> Branching: everone has their own version; Version Control: mistakes can be undone & a history of changes allows for documentation and mergeing; Cloneing: provides an additional useable backup; Committing: only adds to a file rather than deleting; Local: offline working possible.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
